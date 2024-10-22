@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+package protobuf;
+
+option java_multiple_files = true;
+option java_package = "com.zahid.protobuf.proto";
+option java_outer_classname = "School";
+
+message Student {
+    string name = 1;
+    int32 age = 2;
+}
+
+message Students{
+    repeated Student student = 1;
+}
