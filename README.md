@@ -3,5 +3,5 @@
 2. Run the below in terminal to generate the classes:
 
 ```shell
-    protoc -I=proto --java_out=src/main/java/ proto/Customer.proto
+./protoc_compiler.exe -I=proto --java_out=src/main/java/ proto/*.proto
 ```
